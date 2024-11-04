@@ -1,0 +1,70 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+}
+
+.header nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.header nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+.offers {
+  padding: 40px;
+  text-align: center;
+}
+
+.offers-list {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.offer-card {
+  border: 1px solid black;
+  border-radius: 5px;
+  box-shadow: 0px 5px 12px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  width: 100%;
+  max-width: 300px;
+  color: black;
+  background-color: #fff;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.offer-card:hover {
+  transform: translateY(-10px) scale(1.03);
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.offer-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.offer-card h3 {
+  margin: 10px 0;
+}
+
+.price {
+  font-weight: bold;
+  color: goldenrod;
+}
+
+.footer {
+  background: white;
+  color: black;
+  text-align: center;
+  padding: 10px;
+  width: 100%;
+  position: relative;
+}
